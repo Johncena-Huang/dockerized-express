@@ -1,5 +1,5 @@
 # Using the node:14-alpine(stripped-down version) as the base image
-From node:14-alpine 
+FROM node:14-alpine 
 # Set the working directory as /user/app(impact the followings)
 WORKDIR /usr/app
 # copy the files under the repo to the root directory of container
